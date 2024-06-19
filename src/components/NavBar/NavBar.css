@@ -1,0 +1,206 @@
+.name {
+  display: none;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  inset-block: 0;
+  left: -100%;
+  width: 100%;
+  padding: 30px 30px;
+  transition: all 0.5s cubic-bezier(0.077, 0.02, 0.05, 1);
+}
+
+.show__menu {
+  left: 0;
+}
+
+.menu-items {
+  align-items: center;
+  column-gap: 24px;
+  padding-block: 14px;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+}
+
+.active {
+  color: yellow;
+  padding-bottom: 0.5rem;
+  border-bottom: 4px solid yellow;
+}
+
+.nav__toggle {
+  position: fixed;
+  top: 10px;
+  right: 30px;
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  padding: 12px 10px;
+  background: white;
+  z-index: 1;
+  cursor: pointer;
+  margin-right: 24px;
+}
+
+.nav__toggle span {
+  display: block;
+  width: 20px;
+  height: 2px;
+  border-radius: 2px;
+  background-color: rgb(10, 10, 10);
+  margin-bottom: 5px;
+}
+
+.animate__togle span:first-child {
+  transform: rotate(45deg) translate(6px, 4px);
+}
+
+.animate__togle span:nth-child(2) {
+  display: none;
+}
+
+.animate__togle span:last-child {
+  transform: rotate(-45deg) translate(1px, 1px);
+}
+
+.theme_contact {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.theme_selector {
+  margin-left: 12px;
+}
+
+.theme_selector button {
+  display: flex;
+  gap: 8px;
+  padding: 4px;
+  border: 2px solid blueviolet;
+  border-radius: 12px;
+  background: white;
+  color: rgb(0, 255, 64);
+  font-weight: 400;
+}
+
+.contact-me {
+  display: flex;
+  border: 2px solid lightcoral;
+  width: 110px;
+  background: lightsalmon;
+  padding: 4px;
+  align-items: center;
+  gap: 4px;
+  border-radius: 12px;
+}
+
+.contact-me button {
+  border: none;
+}
+
+@media screen and (min-width: 600px) {
+  .name {
+    display: none;
+  }
+
+  .container {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    height: 5rem;
+    width: 100vw;
+    background: blueviolet;
+  }
+
+  .nav__menu {
+    all: unset;
+    margin: 2px;
+    cursor: pointer;
+  }
+
+  .menu-items {
+    margin: 0.5rem;
+    text-decoration: none;
+    border: none;
+  }
+
+  .menu-items:hover {
+    color: greenyellow;
+    border-bottom: 2px solid greenyellow;
+  }
+
+  .theme_contact {
+    flex-direction: row-reverse;
+    gap: 2px;
+    margin-left: 60px;
+    margin-right: 18px;
+  }
+
+  .contact-me {
+    display: flex;
+    justify-content: space-around;
+    width: 8rem;
+    height: 2rem;
+    color: #fff;
+    background: #fff;
+    border-radius: 2rem;
+    align-items: center;
+  }
+
+  .contact-me:hover {
+    height: 4rem;
+    background: pink;
+  }
+
+  .message-icon {
+    color: blue;
+    padding: 2px;
+    font-size: 20px;
+  }
+
+  .contact-me button {
+    border: none;
+    cursor: pointer;
+    color: brown;
+    padding-right: 12px;
+  }
+
+  .active {
+    color: yellow;
+    padding-bottom: 0.5rem;
+    border-bottom: 4px solid yellow;
+  }
+
+  .nav__toggle {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .name {
+    display: block;
+  }
+  .container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu-items {
+    margin: 1.5rem;
+    text-decoration: none;
+    border: none;
+  }
+
+  .theme_contact {
+    flex-direction: row-reverse;
+    gap: 12px;
+    margin-right: 80px;
+  }
+}

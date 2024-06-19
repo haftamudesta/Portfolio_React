@@ -1,0 +1,93 @@
+#introduction {
+  padding: 1rem 2rem;
+  
+  max-width: 90rem;
+  overflow: hidden;
+}
+
+.introduction_content {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100%;
+}
+
+.image__haftamu {
+  max-width: 100%;
+}
+
+.introduction_contents-des {
+  margin-top: 42px;
+  margin-left: 32px;
+}
+
+.introduction_contents-des:hover {
+  border: 1px solid palevioletred;
+}
+
+.hello {
+  font-size: 0.9rem;
+}
+
+.my-name {
+  color: rgb(194, 149, 37);
+}
+
+.web-dev {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.animated__profession {
+  color: blueviolet;
+  font-family: var(--second_font);
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  background: #fff;
+  width: 8rem;
+  margin: 1rem 0;
+  padding: 0.75rem 1rem;
+  border: none;
+  border-radius: 2rem;
+}
+
+.icon {
+  padding-right: 0.5rem;
+  font-size: 2rem;
+  object-fit: cover;
+}
+
+.image-haftamu {
+  margin-top: 1rem;
+  height: 80%;
+  width: 80%;
+  background: rgb(30, 30, 30);
+  margin-left: 0.5rem;
+  object-fit: cover;
+}
+
+.back__ground-color {
+  display: none;
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  background-color: aqua;
+  top: -50%;
+  left: -60%;
+  transform: rotate(-15deg);
+}
+
+@media screen and (min-width: 600px) {
+  .introduction_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  .introduction_contents-des {
+    margin-left: 16px;
+    margin-top: 200px;
+  }
+}

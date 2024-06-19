@@ -1,42 +1,35 @@
-#root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Poppins:wght@500;600;700;800&display=swap');
+
+:root {
+  --frist_color: hsl(271, 76%, 53%);
+  --title_color: hsl(0, 0, 40%);
+  --text_color: hsl(0, 0, 50%);
+  --body_color: hsl(0, 0, 100%);
+  --container_color: hsl(0, 0, 93%);
+  --border_color: hsl(0, 0, 87%);
+  --white_text: #fff;
+  --black_text: #1f1f38;
+  --pop-up_text: hsl(189, 88%, 50%);
+  --body_font: 'Open Sans', sans-serif;
+  --second_font: 'Poppins', sans-serif;
+  --big_font_size: 56px;
+  --h1_font_size: 50px;
+  --h2_font_size: 32px;
+  --h3_font_size: 24px;
+  --large_font_size: 18px;
+  --normal_font_size: 16px;
+  --small_font_size: 15px;
+  --smaller_font_size: 14px;
+  --tiny_font_size: 56px;
 }
 
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
+li {
+  list-style: none;
+  text-decoration: none;
 }

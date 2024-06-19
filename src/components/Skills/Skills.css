@@ -1,0 +1,68 @@
+#skils {
+  padding: 1rem 2rem;
+}
+
+.skils__header {
+  position: relative;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 50px;
+  font-family: var(--second_font);
+}
+
+.skills__span {
+  color: rgb(184, 166, 169);
+}
+
+.skils__header::after {
+  content: "";
+  height: 12px;
+  width: 12%;
+  background: #ec5242;
+  position: absolute;
+  bottom: -8px;
+  left: 45%;
+  margin-top: 4px;
+}
+
+.skills_slider {
+  margin-top: 20px;
+  position: relative;
+}
+
+.main__skills-sliders {
+  padding: 24px;
+}
+
+.main_skills-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  align-content: center;
+  width: max-content;
+  margin-top: var(--large_font_size);
+  margin-left: 80px;
+  padding: 24px;
+}
+
+.images {
+  object-fit: cover;
+  max-width: 40%;
+  margin-bottom: 32px;
+}
+
+.main_skills-title {
+  color: #fff;
+  font-size: var(--normal_font_size);
+  font-family: var(--second_font);
+  margin-top: 12px;
+}
+
+.main_skills-title h1 {
+  margin-bottom: 24px;
+}
+
+.slick_slide > div {
+  margin: 10px 10px;
+}
