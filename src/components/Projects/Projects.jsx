@@ -18,9 +18,9 @@ const Projects = () => {
     return (
       <div className={ishovering ? "hovering" : "hidden"}>
         <h1 className="popup__window">
-          do you want to see the details of the app?<br /> 
+          do you want to see the details of the Project?<br /> 
           That is cool! <br />
-          just click  the look in github link below <br /> and clone  it from my github.  
+          just click  the <strong className="strong_phrase">look in github</strong>  link below <br /> and clone  it from my github.  
 
         </h1>
       </div>
@@ -40,6 +40,7 @@ const Projects = () => {
               onClick={() => updatContent(1)}
             >
               HTML and CSS
+              
             </li>
             <li
               className={content === 2 ? "active_tab" : "border"}
@@ -78,9 +79,7 @@ const Projects = () => {
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/capstoneJavascript.JPG' alt="" className="snapped__image"/>
-            <button className="github__link">
-            <a href="https://github.com/haftamudesta/capstone-project" className="">Look in GitHub</a>
-            </button>
+            
             </div>
             <div 
             className="images__card"
@@ -103,7 +102,7 @@ const Projects = () => {
             <button className="github__link">
             <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Look in GitHub</a>
             </button>
-            <div>{crossClass()}</div>
+             <div>{crossClass()}</div> 
             </div>
             <div 
             className="images__card"
@@ -114,11 +113,9 @@ const Projects = () => {
             <button className="github__link">
             <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Look in GitHub</a>
             </button>
-            <div>{crossClass()}</div>
+            {/* <div>{crossClass()}</div> */}
             </div>
             </div>
-
-
             <div className="image__cards">
             <div 
             className="images__card"
@@ -126,9 +123,6 @@ const Projects = () => {
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/awesomeBooks.JPG' alt="" className="snapped__image"/>
-            <button className="github__link">
-            <a href="https://github.com/haftamudesta/AwesomeBooks" className="">Look in GitHub</a>
-            </button>
             </div><div 
             className="images__card"
             onMouseEnter={handleMouseenter}
@@ -151,9 +145,6 @@ const Projects = () => {
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/reactCapstone.JPG' alt="" className="snapped__image"/>
-            <button className="github__link">
-            <a href="https://github.com/haftamudesta/React-Capstone-Project" className="">Look in GitHub</a>
-            </button>
             </div>
             <div 
             className="images__card"
@@ -173,9 +164,6 @@ const Projects = () => {
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/bookstore.JPG' alt="" className="snapped__image"/>
-            <button className="github__link">
-            <a href="https://github.com/haftamudesta/BookStore" className="">Look in GitHub</a>
-            </button>
             </div>
             <div 
             className="images__card margin__bottom"
@@ -195,9 +183,7 @@ const Projects = () => {
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/math_mag.JPG' alt="" className="snapped__image"/>
-            <button className="github__link">
-            <a href="https://github.com/haftamudesta/Math-magicinsTest" className="">Look in GitHub</a>
-            </button>
+            
             </div>
             <div 
             className="images__card margin__bottom"

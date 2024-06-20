@@ -8,7 +8,7 @@ import {motion} from "framer-motion"
 
 const About = () => {
   return (
-    <main className={styles.about__section}>
+    <main className={styles.about__section} id="about">
         <section className={styles.about__me}>
             <motion.h1 
             initial={{

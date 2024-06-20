@@ -91,7 +91,7 @@ const NavBar = () => {
           </Link>
           <Link
             activeClass="active"
-            to="skils"
+            to="about"
             spy="true"
             smooth="true"
             offset={-50}
@@ -100,7 +100,6 @@ const NavBar = () => {
             onClick={()=>setShowMenu(!showMenu)}
           >
             About
-            
           </Link>
           <Link
             activeClass="active"
@@ -113,11 +112,10 @@ const NavBar = () => {
             onClick={()=>setShowMenu(!showMenu)}
           >
             Portfolio
-            
           </Link>
           <Link
             activeClass="active"
-            to="main_projects"
+            to="main_project"
             spy="true"
             smooth="true"
             offset={-50}
@@ -129,14 +127,11 @@ const NavBar = () => {
           </Link>
         </div>
         <div className=  {`${showMenu?'nav__toggle animate__togle':'nav__toggle'}`} 
-        onClick={()=>setShowMenu(!showMenu)}>
+        onClick={()=>setShowMenu(!showMenu)} >
           <span></span>
           <span></span>
           <span></span>
         </div>
-
-
-
 
         <div className="theme_contact">
            <div className="theme_selector">
@@ -149,13 +144,7 @@ const NavBar = () => {
                <AiOutlineMessage className="message-icon" />
               <button onClick={handleClick}>Contact Me</button>
              </div>
-        </div>
-        
-
-        
-        
-        
-        
+        </div> 
       </nav>
       <motion.div 
       style={{

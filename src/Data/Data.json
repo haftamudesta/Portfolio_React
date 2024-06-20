@@ -4,13 +4,13 @@
       "id": "1",
       "src": "imagesf/front_end.png",
       "title": "Front-End",
-      "description": "HTML  | CSS |  BOOTSTRAP | JAVASCRIPT |  TYPESCRIPT |  REACT |   REDUX  ..."
+      "description": "HTML  | CSS | TAILWINDCSS |  BOOTSTRAP | JAVASCRIPT |  TYPESCRIPT |  REACT |   REDUX | ANGULAR ..."
     },
     {
       "id": "2",
       "src": "imagesf/back_end.png",
       "title": "Back-End",
-      "description": "RUBY |   RUBY on RAILS |  NODEJS  | POSTGESQL..."
+      "description": "RUBY |   RUBY on RAILS |  NODEJS  | POSTGESQL | MONGODb | EXPRESS JS | FIREBASE"
     },
     
     {
@@ -29,7 +29,7 @@
       "id": "5",
       "src": "imagesf/uiux.png",
       "title": "UX/UI design",
-      "description": "my ux/ui skills are"
+      "description": "Responssive Design | Collaboration | Communication | Wireframing"
     }
   ]
 }
