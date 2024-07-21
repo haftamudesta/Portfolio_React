@@ -11,7 +11,7 @@
 }
 
 .skills__span {
-  color: rgb(184, 166, 169);
+  color: rgb(226, 39, 70);
 }
 
 .skils__header::after {
@@ -30,8 +30,15 @@
   position: relative;
 }
 
-.main__skills-sliders {
-  padding: 24px;
+.main_skils {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  margin-bottom: 4px;
+}
+
+.slider-card {
+  margin-right: 4px;
 }
 
 .main_skills-card {
@@ -40,10 +47,10 @@
   align-items: center;
   justify-content: center;
   align-content: center;
-  width: max-content;
   margin-top: var(--large_font_size);
-  margin-left: 80px;
-  padding: 24px;
+  overflow: hidden;
+  border: 1px solid rgb(144, 223, 144);
+  padding: 8px;
 }
 
 .images {

@@ -15,10 +15,8 @@
   color: var(--frist_color);
   font-size: var(--h1_font_size);
   line-height: 1.2;
-  border-radius: 50%;
   padding: 4px;
-  border-bottom-color: blueviolet;
-  border-left-color: blueviolet;
+  border-radius: 50%;
 }
 
 .stats__title {

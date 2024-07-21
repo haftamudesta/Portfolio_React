@@ -38,6 +38,7 @@
     "paren-newline": "off",
     "import/no-useless-path-segments": "off",
     "comma-dangle": "off",
+    "react/prop-types": "off",
     "import/extensions": [
       1,
       {

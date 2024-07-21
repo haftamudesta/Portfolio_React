@@ -1,23 +1,20 @@
-import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import Data from "../../Data/Data.json";
 import "./Skills.css";
-import image1 from "../../assets/uiux.png";
-import image2 from "../../images/awesomeBooks.png"
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-function Arrows(props) {
-  const { className, style, onClick } = props;
-  return (
-    <div
-      className={className}
-      style={{ ...style, display: "flex", }}
-      onClick={onClick}
-    />
-  );
-}
+// function Arrows(props) {
+//   const { className, style, onClick } = props;
+//   return (
+//     <div
+//       className={className}
+//       style={{ ...style, display: "flex", }}
+//       onClick={onClick}
+//     />
+//   );
+// }
 
 const Skils = () => {
 
@@ -63,11 +60,11 @@ const Skils = () => {
      
       <div className="skils__header">My <span className="skills__span">Skills</span></div>
       
-        <div className="main_skils">
-          <div className="main__skills-sliders">
-        <Slider {...settings}>
+        <div className="w-3/4 m-auto main_skils">
+          <div className="mt-16">
+        <Slider {...settings} className="slider-card">
           {Data?.skills?.map((item, index) => (
-            <div key={index} className="main_skills-card">
+            <div key={index} className="h-[400px] main_skills-card">
               <div className="main_skills-image">
                 <img src={item.src} alt="images" className="images" />
               </div>

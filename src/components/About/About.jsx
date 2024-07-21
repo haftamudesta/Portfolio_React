@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./About.module.css"
 import cv from "../../assets/Haftamu_Desta_CV.pdf"
 import { FaDownload } from "react-icons/fa";

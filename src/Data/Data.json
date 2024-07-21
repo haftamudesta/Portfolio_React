@@ -2,13 +2,13 @@
   "skills": [
     {
       "id": "1",
-      "src": "imagesf/front_end.png",
+      "src": "imagesf/reactCapstone.JPG",
       "title": "Front-End",
       "description": "HTML  | CSS | TAILWINDCSS |  BOOTSTRAP | JAVASCRIPT |  TYPESCRIPT |  REACT |   REDUX | ANGULAR ..."
     },
     {
       "id": "2",
-      "src": "imagesf/back_end.png",
+      "src": "imagesf/expensses_page.PNG",
       "title": "Back-End",
       "description": "RUBY |   RUBY on RAILS |  NODEJS  | POSTGESQL | MONGODb | EXPRESS JS | FIREBASE"
     },

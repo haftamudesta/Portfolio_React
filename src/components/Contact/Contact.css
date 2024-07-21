@@ -25,8 +25,8 @@
   font-family: var(--body_font);
 }
 
-.whatsapp {
-  min-width: 200px;
+.whatsapp,.messenger {
+  min-width: 240px;
 }
 
 .form-contact {
@@ -45,9 +45,9 @@ input {
   padding: 10px;
   margin: 5px;
   width: 20rem;
-  background: transparent;
-  outline: none;
-  color: #1c0404;
+  background: rgb(167, 209, 67);
+  
+  color: #f715f7;
   margin-bottom: 16px;
 }
 

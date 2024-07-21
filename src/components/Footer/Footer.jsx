@@ -7,24 +7,25 @@ import "./Footer.css";
 const Footer = () => {
   return (
     <footer className="main_footer">
-      <a href="https://github.com/haftamudesta" className="main_footer-icon">
-        <BsGithub />
-      </a>
-      <a
-        href="https://www.linkedin.com/in/haftamudesta"
+     <div className="footer_links">
+        <a href="https://github.com/haftamudesta" className="main_footer-icon">
+          <BsGithub />
+        </a>
+        <a href="https://www.linkedin.com/in/haftamudesta"
         className="main_footer-icon"
-      >
-        <BsLinkedin />
-      </a>
-      <a
+        >
+           <BsLinkedin />
+        </a>
+        <a
         href="https://www.facebook.com/haftamudesta"
         className="main_footer-icon"
-      >
-        <BsFacebook />
-      </a>
+        >
+          <BsFacebook />
+        </a>
+     </div>
 
       <p className="main_footer-copy">
-        Copyright © 2023 Haftamu Dest. All rights reserved
+        Copyright © {new Date().getFullYear()} Haftamu Desta. All rights reserved
       </p>
     </footer>
   );

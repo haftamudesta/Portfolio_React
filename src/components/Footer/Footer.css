@@ -3,6 +3,10 @@
   margin-left: 10%;
 }
 
+.footer_links {
+  display: flex;
+}
+
 .main_footer-icon {
   padding: 2rem;
   color: rgb(151, 122, 122);

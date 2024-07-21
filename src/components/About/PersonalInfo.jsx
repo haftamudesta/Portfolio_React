@@ -1,4 +1,3 @@
-import React from 'react'
 import styles from "./PersonalInfo.module.css"
 import {personalInformation} from '../../Data/Data'
 import parse from 'html-react-parser';

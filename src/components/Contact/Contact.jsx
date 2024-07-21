@@ -107,11 +107,6 @@ const Contact = () => {
             <a href="https://api.whatsapp.com/send?phone+2510915574522" target="_blank">Send Message</a>
           </motion.article>
         </div>
-        {/* <motion.div 
-        whileHover={{
-          scale:1.4,
-        }}
-        className="contact__options-form"> */}
         <form ref={form} onSubmit={sendEmail} className="form-contact">
         <input
           type="text"

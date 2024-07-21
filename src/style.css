@@ -1,3 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.slick-slide > div {
+  margin: 0 10px;
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -18,8 +26,8 @@
 }
 
 .light {
-  background: rgb(226, 208, 208);
-  color: rgb(61, 20, 20);
+  background: rgb(179, 153, 221);
+  color: black;
   overflow: hidden;
   overflow-y: scroll;
 }

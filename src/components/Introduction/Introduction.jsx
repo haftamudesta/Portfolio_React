@@ -3,7 +3,7 @@ import { AiFillUnlock } from "react-icons/ai";
 import {motion} from "framer-motion"
 import "./Introduction.css";
 import photo from "../../assets/haftamu.jpg";
-import { useTypewriter,Cursor } from "react-simple-typewriter";
+import { useTypewriter } from "react-simple-typewriter";
 
 
 const Introduction = () => {
@@ -35,8 +35,8 @@ const Introduction = () => {
           stiffness:400,
         }}
         whileHover={{
-          scale:1.4,
-          color:'#f8e112'
+          scale:1.2,
+          color:'#f8e112',
         }}
         
         className="introduction_contents-des">
@@ -47,9 +47,9 @@ const Introduction = () => {
           </p>
           <p className="introduction-description">
             I am a skilled junior web developer.
-            <br /> If you have any project to be implemented you can contact me.
+            <br /> If you have any project to be implemented, Do not hesitate you can contact me and we can do things better together.
           </p>
-          <Link>
+          <Link to="main_contact">
             <motion.button className="btn"
             whileTap={{
               rotate:"90deg",

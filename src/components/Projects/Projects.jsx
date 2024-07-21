@@ -18,10 +18,9 @@ const Projects = () => {
     return (
       <div className={ishovering ? "hovering" : "hidden"}>
         <h1 className="popup__window">
-          do you want to see the details of the Project?<br /> 
+          Do you want to see the details of the Project?<br /> 
           That is cool! <br />
-          just click  the <strong className="strong_phrase">look in github</strong>  link below <br /> and clone  it from my github.  
-
+          Just click  the <strong className="strong_phrase">check in GitHub</strong>  link <br /> and clone  it from my GitHub.  
         </h1>
       </div>
     );
@@ -29,9 +28,9 @@ const Projects = () => {
   return (
     <>
       <section id="main_projects">
-        <h1 className="my_projects">Projects</h1>
-        <p className="my_projects-des">
-          while learning at microvers I have implemented the following projects
+        <h1 className="ml-10 my_projects">Projects</h1>
+        <p className="text-lg">
+          While learning at microvers I have implemented the following projects. for farther information visit my <a  href="https://github.com/haftamudesta" className="text-sm text-sky-400">GitHub page</a>
         </p>
         <div className="projects-tap">
           <ul>
@@ -39,7 +38,7 @@ const Projects = () => {
               className={content === 1 ? "active_tab" : "border"}
               onClick={() => updatContent(1)}
             >
-              HTML and CSS
+              Mern Stack
               
             </li>
             <li
@@ -52,7 +51,7 @@ const Projects = () => {
               className={content === 3 ? "active_tab" : "border"}
               onClick={() => updatContent(3)}
             >
-              React with redux
+              React with Redux
             </li>
             <li
               className={content === 4 ? "active_tab" : "border"}
@@ -66,7 +65,47 @@ const Projects = () => {
             onMouseEnter={handleMouseenter}
             onMouseLeave={handleMouseLeave}
           >
-            <h1>html and css projects</h1>
+          <div className="image__cards">
+            <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/profile_page.PNG' alt="" className="snapped__image"/>
+            
+            </div>
+            <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/Sign_In.PNG' alt="" className="snapped__image"/>
+            <button className="github__link">
+            <a href="https://github.com/haftamudesta/BlogApp_MERN" className="">Check in GitHub</a>
+            </button>
+            </div>
+            <div>{crossClass()}</div>
+          </div>
+            <div className="image__cards">
+            <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/add_book.PNG' alt="" className="snapped__image"/>
+              
+            </div>
+            <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/book_main.PNG' alt="" className="snapped__image"/>
+            <button className="github__link">
+            <a href="ttps://github.com/haftamudesta/MERN_BookStore" className="">Check in GitHub</a>
+            </button>
+            </div>
+            </div>
           </div>
           <div 
           className={content === 2 ? "show_tap_content" : "tap_content"}
@@ -88,9 +127,10 @@ const Projects = () => {
             >
             <img src= './images/capstone_javascript_mob.jpg' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/capstone-project" className="">Look in GitHub</a>
+            <a href="https://github.com/haftamudesta/capstone-project" className="">Check in GitHub</a>
             </button>
             </div>
+            <div>{crossClass()}</div>
           </div>
             <div className="image__cards">
             <div 
@@ -100,9 +140,8 @@ const Projects = () => {
             >
             <img src= './images/portfolio.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Look in GitHub</a>
-            </button>
-             <div>{crossClass()}</div> 
+            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Check in GitHub</a>
+            </button> 
             </div>
             <div 
             className="images__card"
@@ -111,11 +150,11 @@ const Projects = () => {
             >
             <img src= './images/portfolio_mob.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Look in GitHub</a>
+            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Check in GitHub</a>
             </button>
-            {/* <div>{crossClass()}</div> */}
             </div>
             </div>
+
             <div className="image__cards">
             <div 
             className="images__card"
@@ -123,22 +162,23 @@ const Projects = () => {
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/awesomeBooks.JPG' alt="" className="snapped__image"/>
-            </div><div 
+            </div>
+            <div 
             className="images__card"
             onMouseEnter={handleMouseenter}
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/awesomeBooks_list.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/AwesomeBooks" className="">Look in GitHub</a>
+            <a href="https://github.com/haftamudesta/AwesomeBooks" className="">Check in GitHub</a>
             </button>
             </div>
             </div>
-           
           </div>
           <div className={content === 3 ? "show_tap_content" : "tap_content"}>
 
           <div className="image__cards">
+         
           <div 
             className="images__card"
             onMouseEnter={handleMouseenter}
@@ -146,6 +186,7 @@ const Projects = () => {
             >
             <img src= './images/reactCapstone.JPG' alt="" className="snapped__image"/>
             </div>
+            
             <div 
             className="images__card"
             onMouseEnter={handleMouseenter}
@@ -153,9 +194,10 @@ const Projects = () => {
             >
             <img src= './images/reactCapstone_mobile.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/React-Capstone-Project" className="">Look in GitHub</a>
-            </button>
+            <a href="https://github.com/haftamudesta/React-Capstone-Project" className="">Check in GitHub</a>
+            </button> 
             </div>
+            <div>{crossClass()}</div>
           </div>
           <div className="image__cards">
           <div 
@@ -172,7 +214,7 @@ const Projects = () => {
             >
             <img src= './images/bookstore_home.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/BookStore" className="">Look in GitHub</a>
+            <a href="https://github.com/haftamudesta/BookStore" className="">Check in GitHub</a>
             </button>
             </div>
           </div>
@@ -183,7 +225,6 @@ const Projects = () => {
             onMouseLeave={handleMouseLeave}
             >
             <img src= './images/math_mag.JPG' alt="" className="snapped__image"/>
-            
             </div>
             <div 
             className="images__card margin__bottom"
@@ -192,13 +233,66 @@ const Projects = () => {
             >
             <img src= './images/math_mag_home.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/Math-magicinsTest" className="">Look in GitHub</a>
+            <a href="https://github.com/haftamudesta/Math-magicinsTest" className="">Check in GitHub</a>
             </button>
             </div>
             </div>
           </div>
-          <div className={content === 4 ? "show_tap_content" : "tap_content"}>
-            <h1>ruby on rails</h1>
+        <div className={content === 4 ? "show_tap_content" : "tap_content"}>
+          <div className="image__cards">
+          <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/expensses_page.PNG' alt="" className="snapped__image"/>
+            </div>
+            <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/Categories_page.PNG' alt="" className="snapped__image"/>
+            </div>
+            
+            <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/log_in_page.PNG' alt="" className="snapped__image"/>
+            <button className="github__link">
+            <a href="https://github.com/haftamudesta/Budget_App" className="">Check in GitHub</a>
+            </button>
+            </div>
+            <div>{crossClass()}</div>
+          </div>
+          <div className="image__cards">
+          <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/recipe_log_in.PNG' alt="" className="snapped__image"/>
+            </div>
+            <div 
+            className="images__card"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/recipe_home.PNG' alt="" className="snapped__image"/>
+            </div>
+            <div 
+            className="images__card margin__bottom"
+            onMouseEnter={handleMouseenter}
+            onMouseLeave={handleMouseLeave}
+            >
+            <img src= './images/recipe_foods.PNG' alt="" className="snapped__image"/>
+            <button className="github__link">
+            <a href="https://github.com/haftamudesta/Recipe_App" className="">Check in GitHub</a>
+            </button>
+            </div>
+          </div>
           </div>
         </div>
       </section>

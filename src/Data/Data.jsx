@@ -27,7 +27,7 @@ export const personalInformation=[
     {
         id:6,
         title:'phone',
-        description:'+251 913-57-45-22'
+        description:'+251 915-57-45-22'
     },
     {
         di:7,
@@ -45,7 +45,7 @@ export const stats=[
     {
         id:1,
         number:'9+',
-        title:'year of exprience as Electrical Engineer <br /> <br /> junior as web developer'
+        title:'Year of exprience as Electrical Engineer <br /> <br /> Junior as web developer'
     },
     {
         id:2,
