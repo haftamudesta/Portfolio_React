@@ -11,7 +11,7 @@
 .contact__options {
   display: flex;
   flex-direction: column;
-  gap: 32px;
+  gap: 12px;
 }
 
 .email,
@@ -31,7 +31,7 @@
 }
 
 .form-contact {
-  width: max-content;
+  width: 100%;
   background-image: linear-gradient(to right, #fff7c8 0%, #fa709a 100%);
   padding: 16px 40px;
   margin-right: 24px;
@@ -45,22 +45,25 @@
 input {
   padding: 10px;
   margin: 5px;
-  width: 20rem;
+  width: 15rem;
   background: rgb(167, 209, 67);
   color: #f715f7;
   margin-bottom: 16px;
 }
 
 .form-textarea {
-  text-align: center;
-  align-self: center;
+  margin-top: 8px;
+  margin-right: 8px;
+  width: 95%;
+  margin-bottom: 5
+  0px;
 }
 
 .submit-btn {
-  margin-top: 16px;
-  margin-left: 40%;
+  
+  margin-left: -120px;
   position: relative;
-  padding: 12px 24px;
+  padding: 8px 12px;
   color: #fff;
   text-transform: uppercase;
   letter-spacing: 2px;
@@ -148,6 +151,12 @@ input {
 }
 
 @media screen and (min-width: 600px) {
+  .form-contact {
+    width: max-content;
+    padding: 16px 40px;
+    margin-right: 24px;
+  }
+
   .contact__options {
     flex-direction: row;
     margin-bottom: 12px;
@@ -157,6 +166,10 @@ input {
     margin-left: 64px;
     width: max-content;
   }
+
+  .submit-btn {
+
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -165,6 +178,12 @@ input {
   }
 
   .contact__options {
-    gap: 180px;
+    gap: 60px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  .contact__options {
+    gap: 260px;
   }
 }

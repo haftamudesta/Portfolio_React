@@ -44,7 +44,8 @@
   background: white;
   z-index: 1;
   cursor: pointer;
-  margin-right: 24px;
+  margin-right: 8px;
+  margin-left: 40px;
 }
 
 .nav__toggle span {
@@ -108,10 +109,6 @@
 }
 
 @media screen and (min-width: 600px) {
-  .name {
-    display: none;
-  }
-
   .container {
     display: flex;
     align-items: center;
@@ -188,10 +185,6 @@
 }
 
 @media screen and (min-width: 768px) {
-  .name {
-    display: block;
-  }
-
   .container {
     display: flex;
     justify-content: space-between;
@@ -206,6 +199,12 @@
   .theme_contact {
     flex-direction: row-reverse;
     gap: 12px;
-    margin-right: 80px;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (min-width: 1020px) {
+  .name {
+    display: block;
   }
 }

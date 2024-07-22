@@ -29,7 +29,7 @@ const Projects = () => {
     <>
       <section id="main_projects">
         <h1 className="ml-10 my_projects">Projects</h1>
-        <p className="text-lg">
+        <p className="text-lg ml-4">
           While learning at microvers I have implemented the following projects. for farther information visit my <a  href="https://github.com/haftamudesta" className="text-sm text-sky-400">GitHub page</a>
         </p>
         <div className="projects-tap">
