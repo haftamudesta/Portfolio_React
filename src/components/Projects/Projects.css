@@ -138,22 +138,26 @@ ul {
 
 @media screen and (min-width: 600px) {
   .projects-tap {
-    display: flex;
-    gap: 32px;
-  }
-
-  .popup__window {
-    margin-top: -200px;
-    margin-left: 140px;
-  }
-
-  .projects-tap {
     flex-direction: column;
   }
 
   .projects-tap ul {
     flex-direction: row;
-    margin: 40px 0 40px 0;
+    gap: 4px;
+    width: 100px;
+    margin-left: 4px;
+    align-items: center;
+  }
+
+  .projects-tap ul li {
+   min-width: 120px;
+   padding-bottom: 4px;
+   align-content: center;
+  }
+
+  .popup__window {
+    margin-top: -200px;
+    margin-left: 140px;
   }
 
   .github__link {
@@ -163,7 +167,30 @@ ul {
   }
 }
 
-@media screen and (min-width: 1070px) {
+@media screen and (min-width: 768px) {
+  .projects-tap ul {
+    flex-direction: row;
+    gap: 10px;
+    width: 150px;
+    margin-left: 10px;
+    align-items: center;
+  }
+
+  .projects-tap ul li {
+   min-width: 160px;
+   padding-bottom: 4px;
+   align-content: center;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .projects-tap ul {
+    flex-direction: row;
+    gap: 70px;
+    width: 180px;
+    margin-left: 50px;
+    align-items: center;
+  }
   .popup__window {
     margin-top: -400px;
     margin-left: 140px;
