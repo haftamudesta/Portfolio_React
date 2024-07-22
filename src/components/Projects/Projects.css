@@ -136,6 +136,11 @@ ul {
   margin-left: 0.5%;
 }
 
+.check_github {
+  margin-bottom: 0;
+  color: palevioletred;
+}
+
 @media screen and (min-width: 600px) {
   .projects-tap {
     flex-direction: column;

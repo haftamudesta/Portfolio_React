@@ -81,7 +81,7 @@ const Projects = () => {
             >
             <img src= './images/Sign_In.PNG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/BlogApp_MERN" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/BlogApp_MERN" className="check_github">Check in GitHub</a>
             </button>
             </div>
             <div>{crossClass()}</div>
@@ -102,7 +102,7 @@ const Projects = () => {
             >
             <img src= './images/book_main.PNG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="ttps://github.com/haftamudesta/MERN_BookStore" className="">Check in GitHub</a>
+            <a href="ttps://github.com/haftamudesta/MERN_BookStore" className="check_github">Check in GitHub</a>
             </button>
             </div>
             </div>
@@ -127,7 +127,7 @@ const Projects = () => {
             >
             <img src= './images/capstone_javascript_mob.jpg' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/capstone-project" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/capstone-project" className="check_github">Check in GitHub</a>
             </button>
             </div>
             <div>{crossClass()}</div>
@@ -140,7 +140,7 @@ const Projects = () => {
             >
             <img src= './images/portfolio.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="check_github">Check in GitHub</a>
             </button> 
             </div>
             <div 
@@ -170,7 +170,7 @@ const Projects = () => {
             >
             <img src= './images/awesomeBooks_list.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/AwesomeBooks" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/AwesomeBooks" className="check_github">Check in GitHub</a>
             </button>
             </div>
             </div>
@@ -194,7 +194,7 @@ const Projects = () => {
             >
             <img src= './images/reactCapstone_mobile.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/React-Capstone-Project" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/React-Capstone-Project" className="check_github">Check in GitHub</a>
             </button> 
             </div>
             <div>{crossClass()}</div>
@@ -214,7 +214,7 @@ const Projects = () => {
             >
             <img src= './images/bookstore_home.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/BookStore" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/BookStore" className="check_github">Check in GitHub</a>
             </button>
             </div>
           </div>
@@ -233,7 +233,7 @@ const Projects = () => {
             >
             <img src= './images/math_mag_home.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/Math-magicinsTest" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/Math-magicinsTest" className="check_github">Check in GitHub</a>
             </button>
             </div>
             </div>
@@ -262,7 +262,7 @@ const Projects = () => {
             >
             <img src= './images/log_in_page.PNG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/Budget_App" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/Budget_App" className="check_github">Check in GitHub</a>
             </button>
             </div>
             <div>{crossClass()}</div>
@@ -289,7 +289,7 @@ const Projects = () => {
             >
             <img src= './images/recipe_foods.PNG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/Recipe_App" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/Recipe_App" className="check_github">Check in GitHub</a>
             </button>
             </div>
           </div>
