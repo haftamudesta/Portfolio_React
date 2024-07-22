@@ -37,7 +37,10 @@
   font-weight: 400;
 }
 
-.introduction-description,.hello, .introduction-text, .web-dev{
+.introduction-description,
+.hello,
+.introduction-text,
+.web-dev {
   color: #fff;
 }
 

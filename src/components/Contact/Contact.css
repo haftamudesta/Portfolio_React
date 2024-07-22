@@ -25,7 +25,8 @@
   font-family: var(--body_font);
 }
 
-.whatsapp,.messenger {
+.whatsapp,
+.messenger {
   min-width: 240px;
 }
 
@@ -46,7 +47,6 @@ input {
   margin: 5px;
   width: 20rem;
   background: rgb(167, 209, 67);
-  
   color: #f715f7;
   margin-bottom: 16px;
 }

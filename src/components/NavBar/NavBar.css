@@ -191,6 +191,7 @@
   .name {
     display: block;
   }
+
   .container {
     display: flex;
     justify-content: space-between;
