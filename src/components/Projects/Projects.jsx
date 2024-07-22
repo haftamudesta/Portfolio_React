@@ -20,7 +20,7 @@ const Projects = () => {
         <h1 className="popup__window">
           Do you want to see the details of the Project?<br /> 
           That is cool! <br />
-          Just click  the <strong className="strong_phrase">check in GitHub</strong>  link <br /> and clone  it from my GitHub.  
+          Just click  the <strong className="strong_phrase">check in GitHub</strong>  link <br /> and clone  it from my GitHub page.  
         </h1>
       </div>
     );

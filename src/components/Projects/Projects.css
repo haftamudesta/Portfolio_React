@@ -96,7 +96,8 @@ ul {
   background: #fff;
   font-size: var(--normal_font_size);
   font-family: var(--second_font);
-  border: 2px solid red;
+  border: 2px solid rgb(217, 255, 0);
+  padding: 8px;
 }
 
 .image__cards {
