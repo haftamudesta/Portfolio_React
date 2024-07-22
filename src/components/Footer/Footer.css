@@ -1,0 +1,20 @@
+.main_footer {
+  padding: 1rem 2rem;
+  margin-left: 10%;
+}
+
+.footer_links {
+  display: flex;
+}
+
+.main_footer-icon {
+  padding: 2rem;
+  color: rgb(151, 122, 122);
+  font-size: 30px;
+}
+
+.main_footer-copy {
+  margin-top: 20px;
+  width: 40%;
+  border-bottom: 1px solid #fff;
+}

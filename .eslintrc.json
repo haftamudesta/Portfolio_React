@@ -9,12 +9,12 @@
     "ecmaVersion": 2018,
     "sourceType": "module"
   },
-  "extends": ["airbnb-base"],
+  "plugins": ["react"],
+  "extends": ["airbnb-base","eslint:recommended","plugin:react/recommended"],
   "rules": {
     "no-shadow": "off",
     "no-param-reassign": "off",
     "eol-last": "off",
-    "no-unused-vars": "off",
     "array-callback-return": "off",
     "consistent-return": "off",
     "no-unused-expressions": "off",
@@ -38,6 +38,8 @@
     "paren-newline": "off",
     "import/no-useless-path-segments": "off",
     "comma-dangle": "off",
+    "react/prop-types": "off",
+    "no-unused-vars": "off",
     "import/extensions": [
       1,
       {

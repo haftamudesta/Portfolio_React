@@ -1,0 +1,25 @@
+.stats__info {
+  margin-top: 34px;
+  margin-left: -28px;
+  margin-right: 12px;
+}
+
+.stats__info__list {
+  border: 2px solid #cfb8b8;
+  margin-bottom: 32px;
+  padding: 8px 8px 8px 16px;
+  border-radius: 12px;
+}
+
+.stats__number {
+  color: var(--frist_color);
+  font-size: var(--h1_font_size);
+  line-height: 1.2;
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.stats__title {
+  font-size: var(--large_font_size);
+  font-family: var(--second_font);
+}

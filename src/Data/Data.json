@@ -1,0 +1,37 @@
+{
+  "skills": [
+    {
+      "id": "1",
+      "src": "imagesf/reactCapstone.JPG",
+      "title": "Front-End",
+      "description": "HTML  | CSS | TAILWINDCSS |  BOOTSTRAP | JAVASCRIPT |  TYPESCRIPT |  REACT |   REDUX | ANGULAR ..."
+    },
+    {
+      "id": "2",
+      "src": "imagesf/expensses_page.PNG",
+      "title": "Back-End",
+      "description": "RUBY |   RUBY on RAILS |  NODEJS  | POSTGESQL | MONGODb | EXPRESS JS | FIREBASE"
+    },
+    
+    {
+      "id": "3",
+      "src": "imagesf/tools.png",
+      "title": "tools",
+      "description": "GIT | GITFLOW | GITHUB |  WEBPACK | VITE | VS CODE | NODE..."
+    },
+    {
+      "id":"4",
+      "src":"imagesf/jest_framework.png",
+      "title":"Tests",
+      "description":"JEST | RSPEC"
+    },
+    {
+      "id": "5",
+      "src": "imagesf/uiux.png",
+      "title": "UX/UI design",
+      "description": "Responssive Design | Collaboration | Communication | Wireframing"
+    }
+  ]
+}
+
+
