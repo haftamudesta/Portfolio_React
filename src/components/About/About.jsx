@@ -1,5 +1,5 @@
 import styles from "./About.module.css"
-import cv from "../../assets/Haftamu_Desta_CV.pdf"
+import cv from "../../assets/Resume.pdf"
 import { FaDownload } from "react-icons/fa";
 import PersonalInfo from './PersonalInfo';
 import Stats from './Stats';

@@ -25,7 +25,7 @@ const Footer = () => {
      </div>
 
       <p className="main_footer-copy">
-        Copyright © {new Date().getFullYear()} Haftamu Desta. All rights reserved
+        ©{new Date().getFullYear()} Haftamu Desta. All rights reserved
       </p>
     </footer>
   );
