@@ -45,7 +45,7 @@ export const stats=[
     {
         id:1,
         number:'9+',
-        title:'Year of exprience as Electrical Engineer <br /> <br /> Junior as web developer'
+        title:'Years of exprience as Electrical Engineer <br /> <br /> Junior as web developer'
     },
     {
         id:2,
