@@ -138,10 +138,7 @@ const Projects = () => {
             onMouseEnter={handleMouseenter}
             onMouseLeave={handleMouseLeave}
             >
-            <img src= './images/portfolio.JPG' alt="" className="snapped__image"/>
-            <button className="github__link">
-            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="check_github">Check in GitHub</a>
-            </button> 
+            <img src= './images/portfolio.JPG' alt="" className="snapped__image"/> 
             </div>
             <div 
             className="images__card"
@@ -150,7 +147,7 @@ const Projects = () => {
             >
             <img src= './images/portfolio_mob.JPG' alt="" className="snapped__image"/>
             <button className="github__link">
-            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="">Check in GitHub</a>
+            <a href="https://github.com/haftamudesta/portfolio-form-validation" className="check_github">Check in GitHub</a>
             </button>
             </div>
             </div>

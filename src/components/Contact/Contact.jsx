@@ -137,7 +137,6 @@ const Contact = () => {
           <span>Submit</span>
         </button>
       </form>
-        {/* </motion.div> */}
       </div>
     </section>
   );
