@@ -47,15 +47,8 @@
   align-items: center;
   justify-content: center;
   align-content: center;
-  margin-top: var(--large_font_size);
   background: #bed45b;
   padding: 8px;
-}
-
-.images {
-  object-fit: cover;
-  max-width: 40%;
-  margin-bottom: 32px;
 }
 
 .main_skills-title {

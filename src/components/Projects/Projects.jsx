@@ -67,11 +67,11 @@ const Projects = () => {
           >
           <div className="image__cards">
             <div 
-            className="images__card"
+            className=" w-full images__card"
             onMouseEnter={handleMouseenter}
             onMouseLeave={handleMouseLeave}
             >
-            <img src= './images/profile_page.PNG' alt="" className="snapped__image"/>
+            <img src= './images/profile_page.PNG' alt="" className="w-full mr-4 snapped__image"/>
             
             </div>
             <div 

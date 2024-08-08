@@ -115,6 +115,7 @@ ul {
 .images__card {
   padding-top: 12px;
   padding-left: 16px;
+  padding-right: 16px;
 }
 
 .margin__bottom {
@@ -123,7 +124,6 @@ ul {
 
 .snapped__image {
   display: flex;
-  width: 80%;
 }
 
 .github__link {
