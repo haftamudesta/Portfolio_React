@@ -64,7 +64,7 @@ const Skils = () => {
           <div className="mt-16">
         <Slider {...settings} className="slider-card">
           {Data?.skills?.map((item, index) => (
-            <div key={index} className="h-[300px] main_skills-card">
+            <div key={index} className="h-[350px] main_skills-card">
               <div className="h-[100px] object-cover mt-0">
                 <img src={item.src} alt="images" className="block h-full w-full object-cover" />
               </div>
