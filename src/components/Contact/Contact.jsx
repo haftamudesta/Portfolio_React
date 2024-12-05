@@ -27,6 +27,7 @@ const Contact = () => {
 
   function validate(e) {
     e.preventDefault();
+    const emailValidationRegex=/^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,4}$/i;
     if (userName.length > 0) {
       setErrorUserName("");
       setUserColor("green");
@@ -35,14 +36,12 @@ const Contact = () => {
       setUserColor("red");
     }
 
-    if (
-      email.includes("@gmail.com" || "@hotmail.com" || "@yahoo.com" || ".net")
-    ) {
+    if (emailValidationRegex.test(email)) {
       setErrorEmail("");
       setEmailColor("green");
     } else {
       setErrorEmail(
-        "email should include @gamil.com or @hotmail.com or @yahoo.com or .net"
+        "Invaild Email! Please use valid Email"
       );
       setEmailColor("red");
     }

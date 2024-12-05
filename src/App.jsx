@@ -8,7 +8,6 @@ import Footer from "./components/Footer/Footer";
 import About from "./components/About/About";
 
 function App() {
-  
   return (
     <>
     <NavBar />
